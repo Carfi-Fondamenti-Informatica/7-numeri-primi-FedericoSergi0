@@ -1,18 +1,20 @@
 #include "lib.h"
-bool numeriprimi ( int a)
-int b=2;
-    for (int b=2; b<a; b++);
-int risultato=0;
-    {
-        risultato=(a%b);
-        if(risultato==0)
-      {
-            return false;
-    }
-        else{
-            return true;
-        }
 
-    }
+bool numeriprimi (int a){
+    bool vero_o_falso
 
+    if (a>2){
+        for (int b=2;b<a;b++){
+            if ((a%b)==0) {
+                vero_o_falso = false;
+                break;
+            }else {
+                vero_o_falso = true;
+            }
+            }
+        }else if (a==2) {
+        vero_o_falso = false
+    }
+    return vero_o_falso;
+    }
 
