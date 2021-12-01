@@ -2,6 +2,7 @@
 #include "lib.h"
 
 using namespace std;
+
 int main(){
   int a=0;
   cin >> a;
@@ -9,9 +10,10 @@ int main(){
   numeriprimi (a);
   
   if ( numeriprimi (a)==1){
-    cout << "numero primo";
+    cout << "numero primo" <<endl;
   }else {
-    cout << "numero non primo";
+    cout << "numero non primo" <<endl;
     }
+  
   return 0;
 }
