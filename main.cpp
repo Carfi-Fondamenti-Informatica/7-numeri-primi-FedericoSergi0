@@ -9,7 +9,9 @@ int main(){
   numeriprimi (a);
   
   if ( numeriprimi (a)==1){
-    cout << "numero non primo";
-  }
+    cout << "numero primo";
+  }else {
+    cout << "numero non primo"
+    }
   return 0;
 }
